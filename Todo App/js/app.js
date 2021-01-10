@@ -98,7 +98,7 @@ function showAllTodoItems() {
 }
 
 inputField.addEventListener("keyup", (e) => {
-  if (e.code === "Enter" || e.code === 229 && inputField.value.length > 0) {
+  if (e.code === "Enter" || e.keyCode === 13 && inputField.value.length > 0) {
     createTodoItem(inputField.value);
   }
 });
