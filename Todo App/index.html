@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Todo app</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/light-theme.css" id="theme-link" />
+    <style>
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+  </head>
+  <body>
+    <div class="app-wrapper">
+      
+      <header class="app-header">
+        <h1>TODO APP</h1>
+      </header>
+
+     
+      <div class="input-field-container">
+        <label for="input-field">
+          <input
+            class="input-field"
+            type="text"
+            name="input-field"
+            id="input-field"
+            placeholder="Create a new todo..."
+          />
+        </label>
+        <i class="fal fa-circle input-circle"></i>
+      </div>
+
+      
+      <div class="todo-container" id="todo-container">
+        <div class="items-left-container" id="items-left-container">
+          <p class="todos-left" id="todos-left">5 items left</p>
+          <div class="todo-status-container" id="todo-status-container">
+            <p class="show-all-todos" id="show-all-todos">All</p>
+            <p class="show-active-todos" id="show-active-todos">Active</p>
+            <p class="show-completed-todos" id="show-completed-todos">
+              Completed
+            </p>
+          </div>
+          <p class="clear-completed-todos" id="clear-completed-todos">
+            Clear Completed
+          </p>
+        </div>
+      </div>
+      <p class="instruction">Drag and drop to reorder list</p>
+    </div>
+   
+  
+    <script src="./js/app.js"></script>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Ankita Das</a>.
+    </div>
+  </body>
+</html>
