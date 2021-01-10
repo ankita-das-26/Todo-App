@@ -13,4 +13,4 @@ Users should be able to:
 - Clear all completed todos
 - Toggle light and dark mode
 - **Bonus**: Drag and drop to reorder items on the list
-This app is currently in process , the drag and drop & the night mode feature needs to be done.
+## This app is currently in process , the drag and drop & the night mode feature needs to be done.
